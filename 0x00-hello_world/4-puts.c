@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - prints the phrase
+*main - prints the phrase
 *
-* Return - zero on success
+*return - zero on success
 *
 */
 int main(void)
