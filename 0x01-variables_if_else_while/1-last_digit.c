@@ -7,7 +7,7 @@
 /**
  * main- Prints the output  value of n
  *
- * Result: returns zero if it is successful
+ * Return: returns zero if it is successful
  *
  */
 
@@ -34,7 +34,8 @@ int main(void)
 		printf("and is less than 6 and not 0\n");
 
 
-	else
+	else if ((n % 10) = 0)
+
 		printf("and is 0\n");
 
 
