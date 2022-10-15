@@ -3,7 +3,7 @@
 
 
 /**
- * main - prints the letter
+ * main- prints the letter
  *
  * Retrun: returns zero if successful
  *
