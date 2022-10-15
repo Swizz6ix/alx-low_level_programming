@@ -29,7 +29,7 @@ int main(void)
 
 
 
-	else if ((n % 10) < 5)
+	else if ((n % 10) < 6)
 
 		printf("and is less than 6 and not 0\n");
 
