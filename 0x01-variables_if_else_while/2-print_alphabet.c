@@ -3,11 +3,12 @@
 
 
 /**
- * main- prints the letter
+ * main- prints the alphabets in lower case 
  *
  * Retrun: returns zero if successful
  *
  */
+
 
 int main(void)
 {
