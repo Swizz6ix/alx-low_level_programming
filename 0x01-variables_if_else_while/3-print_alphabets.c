@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main- prints the lower and upper case alphabets
+ *
+ * Return: returns zero if it is successful
+ *
+ */
+
 int main(void)
 {
 	char upperCase = 'A';
