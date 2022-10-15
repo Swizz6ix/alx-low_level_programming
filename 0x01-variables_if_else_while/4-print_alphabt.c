@@ -21,7 +21,7 @@ int main(void)
 		else
 		{
 			putchar(letter);
-			letter;
+			letter++;
 		}
 	}
 
