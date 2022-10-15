@@ -3,9 +3,9 @@
 
 
 /**
- * main- prints the alphabets in lower case 
+ * main- prints the alphabets in lower case
  *
- * Retrun: returns zero if successful
+ * Return: returns zero if successful
  *
  */
 
