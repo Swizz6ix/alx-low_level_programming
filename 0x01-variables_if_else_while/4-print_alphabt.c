@@ -2,6 +2,14 @@
 #include <stdlib.h>
 
 
+/**
+ * main- prints the alphabets letter
+ *
+ * Return: returns zero if it is successful
+ *
+ */
+
+
 int main(void)
 {
 	char letter = 'a';
