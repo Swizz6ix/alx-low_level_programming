@@ -6,11 +6,15 @@ int main(void)
 	char upperCase = 'A';
 	char lowerCase = 'a';
 
-	while (upperCase <= 'Z' && lowerCase <= 'z')
+	while (lowerCase <= 'z')
 	{
 		putchar(lowerCase);
-		putchar(upperCase);
 		lowerCase++;
+	}
+
+	while (upperCase <= 'Z')
+	{
+		putchar(upperCase);
 		upperCase++;
 	}
 
