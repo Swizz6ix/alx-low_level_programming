@@ -11,8 +11,11 @@ int main(void)
 
 	while ((firstDigit <= '9') & (secondDigit <= '9'))
 	{
+		if (firstDigit < secondDigit && secondDigit <= '9')
+		{
 			putchar(firstDigit);
 			putchar(secondDigit);
+		}
 
 
 		firstDigit++;
