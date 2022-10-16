@@ -15,9 +15,10 @@ int main(void)
 			firstDigit++;
 			secondDigit++;
 		}
-	}
 
 	putchar(',');
 	putchar(' ');
+	
+	}
 	return (0);
 }
