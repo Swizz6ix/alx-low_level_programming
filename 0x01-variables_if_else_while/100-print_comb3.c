@@ -9,17 +9,23 @@ int main(void)
 	firstDigit = '0';
 	secondDigit = '0';
 
-	while ((firstDigit <= '9') & (secondDigit <= '9'))
+	while (firstDigit <= '9')
+
 	{
-		if (firstDigit < secondDigit && secondDigit <= '9')
+		while (secondDigit <= '9')
 		{
-			putchar(firstDigit);
-			putchar(secondDigit);
+
+				
+				if (firstDigit < secondDigit)
+				{
+					putchar(firstDigit);
+					putchar(secondDigit);
+					firstDigit++;
+					secondDigit++;
+				}
+				
 		}
-
-
-		firstDigit++;
-		secondDigit++;
+		
 
 	putchar(',');
 	putchar(' ');
