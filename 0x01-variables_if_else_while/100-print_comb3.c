@@ -16,7 +16,7 @@ int main(void)
 		{
 
 				
-				if (firstDigit < secondDigit)
+				if ((firstDigit < secondDigit) & (secondDigit <= '9'))
 				{
 					putchar(firstDigit);
 					putchar(secondDigit);
@@ -34,5 +34,6 @@ int main(void)
 		firstDigit++;
 	
 	}
+	putchar('\n');
 	return (0);
 }
