@@ -13,7 +13,7 @@ int main(void)
 {
 	int firstDigit;
 	int secondDigit;
-	
+
 	for (firstDigit = '0'; firstDigit <= '9'; firstDigit++)
 
 	{
