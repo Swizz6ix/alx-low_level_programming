@@ -12,9 +12,10 @@ int main(void)
 		{
 			putchar(firstDigit);
 			putchar(secondDigit);
-			firstDigit++;
-			secondDigit++;
 		}
+
+		firstDigit++;
+		secondDigit++;
 
 	putchar(',');
 	putchar(' ');
