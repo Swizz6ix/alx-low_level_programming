@@ -20,15 +20,18 @@ int main(void)
 				{
 					putchar(firstDigit);
 					putchar(secondDigit);
-					firstDigit++;
-					secondDigit++;
+					if ((secondDigit < '9') | (firstDigit < '8'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
+
+				secondDigit++;
 				
 		}
-		
 
-	putchar(',');
-	putchar(' ');
+		firstDigit++;
 	
 	}
 	return (0);
