@@ -1,5 +1,12 @@
-#include <stdio>
+#include <stdio.h>
 #include <stdlib.h>
+
+/**
+ * main- prints the numbers in ascending order
+ *
+ * Return: returns zero if it is successful
+ *
+ */
 
 
 int main(void)
