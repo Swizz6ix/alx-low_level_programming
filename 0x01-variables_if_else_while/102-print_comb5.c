@@ -14,9 +14,9 @@ int main(void)
 	int secondDigit;
 
 
-	for (firstDigit = '0'; firstDigit <= 99; firstDigit++)
+	for (firstDigit = 0; firstDigit <= 99; firstDigit++)
 	{
-		for (secondDigit = '0'; secondDigit <= 99; secondDigit++)
+		for (secondDigit = 0; secondDigit <= 99; secondDigit++)
 		{
 			if (firstDigit < secondDigit)
 			{
