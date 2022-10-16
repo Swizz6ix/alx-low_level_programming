@@ -11,20 +11,20 @@ int main(void)
 {
 	int firstDigit;
 	int secondDigit;
-	int thirdDigit;
+	int thirdD;
 
 	for (firstDigit = '0'; firstDigit <= '9'; firstDigit++)
 	{
 		for (secondDigit = '0'; secondDigit <= '9'; secondDigit++)
 		{
-			for (thirdDigit = '0'; thirdDigit <= '9'; thirdDigit++)
+			for (thirdD = '0'; thirdD <= '9'; thirdD++)
 			{
-				if ((firstDigit < secondDigit) & (secondDigit < thirdDigit) & (thirdDigit <= '9'))
+				if ((firstDigit < secondDigit) & (secondDigit < thirdD) & (thirdD <= '9'))
 				{
 					putchar(firstDigit);
 					putchar(secondDigit);
-					putchar(thirdDigit);
-					if ((firstDigit + secondDigit + thirdDigit) < 168)
+					putchar(thirdD);
+					if ((firstDigit + secondDigit + thirdD) < 168)
 					{
 						putchar(',');
 						putchar(' ');
