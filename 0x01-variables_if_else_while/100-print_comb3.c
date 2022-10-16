@@ -15,7 +15,7 @@ int main(void)
 	int secondDigit;
 
 
-	for (firstDigit = '0'; firstDigit <= '9'; firstDigit++)
+for (firstDigit = '0'; firstDigit <= '9'; firstDigit++)
 
 	{
 for (secondDigit = '0'; secondDigit <= '9'; secondDigit++)
