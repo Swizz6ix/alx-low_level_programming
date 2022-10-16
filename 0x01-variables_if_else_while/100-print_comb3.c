@@ -1,18 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main- prints both the first and second digits
+ *
+ * Return: returns zero if it is successful
+ *
+ */
+
+
 int main(void)
 {
 	int firstDigit;
 	int secondDigit;
+       
 
-	firstDigit = '0';
-	secondDigit = '0';
-
-	while (firstDigit <= '9')
+	for (firstDigit = '0'; firstDigit <= '9'; firstDigit++)
 
 	{
-		while (secondDigit <= '9')
+		for (secondDigit = '0'; secondDigit <= '9'; secondDigit++)
 		{
 
 				
@@ -27,11 +33,10 @@ int main(void)
 					}
 				}
 
-				secondDigit++;
 				
 		}
 
-		firstDigit++;
+
 	
 	}
 	putchar('\n');
