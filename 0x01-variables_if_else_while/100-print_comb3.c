@@ -13,7 +13,7 @@ int main(void)
 {
 	int firstDigit;
 	int secondDigit;
-       
+
 
 	for (firstDigit = '0'; firstDigit <= '9'; firstDigit++)
 
@@ -21,7 +21,6 @@ int main(void)
 		for (secondDigit = '0'; secondDigit <= '9'; secondDigit++)
 		{
 
-				
 				if ((firstDigit < secondDigit) & (secondDigit <= '9'))
 				{
 					putchar(firstDigit);
