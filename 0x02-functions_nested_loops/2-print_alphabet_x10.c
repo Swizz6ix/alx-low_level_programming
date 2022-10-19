@@ -22,6 +22,11 @@ void print_alphabet(void)
 	_putchar('\n');
 }
 
+/**
+ * print_alphabet_x10- prints the alphabets 10 times
+ *
+ */
+
 
 void print_alphabet_x10(void)
 {
