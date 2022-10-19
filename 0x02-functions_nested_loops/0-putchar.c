@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * main- prints the characters
+ *
+ * Return: returns zero if successfull
+ *
+ */
 
 int main(void)
 {
