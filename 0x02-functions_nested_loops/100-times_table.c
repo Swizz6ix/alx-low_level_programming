@@ -40,7 +40,7 @@ void print_times_table(int n)
 					_putchar((pduct % 10) + '0');
 				}
 
-				else if (pduct >= 100 &&x != 0)
+				else if (pduct >= 100 && x != 0)
 				{
 					_putchar((pduct / 100) + '0');
 					_putchar((pduct / 10) % 10 + '0');
@@ -52,7 +52,5 @@ void print_times_table(int n)
 			}
 			_putchar('\n');
 		}
-
 	}
-
 }
