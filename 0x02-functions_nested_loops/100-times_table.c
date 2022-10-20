@@ -25,28 +25,24 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 				}
-
 				if (pduct < 10 && x != 0)
 				{
 					_putchar(' ');
 					_putchar(' ');
 					_putchar((pduct % 10) + '0');
 				}
-
 				else if (pduct >= 10 && pduct < 100)
 				{
 					_putchar(' ');
 					_putchar((pduct / 10) + '0');
 					_putchar((pduct % 10) + '0');
 				}
-
 				else if (pduct >= 100 && x != 0)
 				{
 					_putchar((pduct / 100) + '0');
 					_putchar((pduct / 10) % 10 + '0');
 					_putchar((pduct % 10) + '0');
 				}
-
 				else
 					_putchar((pduct % 10) + '0');
 			}
