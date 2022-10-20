@@ -47,7 +47,6 @@ int main(void)
 			printf(", ");
 		count++;
 	}
-
 putchar('\n');
 return (0);
 }
