@@ -5,7 +5,7 @@
  *
  * @c: is the character
  *
- * Returns: 1 on success
+ * Return: 1 on success and also zero
  *
  */
 
