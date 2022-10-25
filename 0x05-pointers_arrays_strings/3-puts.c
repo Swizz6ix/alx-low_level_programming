@@ -7,7 +7,7 @@
  *
  * Description: prints string to stdout
  *
- * @str input string to print
+ * @str: input string to print
  *
  */
 
