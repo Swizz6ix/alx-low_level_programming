@@ -1,0 +1,21 @@
+#include "holberton.h"
+#include <stddef.h>
+#include <stdio.h>
+
+/**
+ * upper - capitalizes a letter if it is lowercase
+ * @c: pointer to a string
+ * Return: pointer to string
+ **/
+char *upper(char *c)
+{
+	if (c[0] >= 'a' && c[0] <= 'z')
+		c[0] -= 32;
+	return (c);
+}
+
+/*
+ * new_word - compares char to chars that indicate a new word
+ * @c: char to check
+ * Return: 1 if char is a word separator, 0 of not
+ **/
