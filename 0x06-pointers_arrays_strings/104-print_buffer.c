@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
 * print_buffer - prints a buffer
 *
@@ -7,6 +8,7 @@
 * @size: size of buffer.
 * Return: no return.
 */
+
 void print_buffer(char *b, int size)
 {
 	int j, k, l;
@@ -28,6 +30,7 @@ void print_buffer(char *b, int size)
 					printf(" ");
 			}
 			printf(" ");
+
 			for (l = j; l < j + 10; l++)
 			{
 				if (l >= size)
@@ -36,8 +39,10 @@ void print_buffer(char *b, int size)
 					printf("%c", '.');
 				else
 					printf("%c", *(b + l));
+
 			}
 			printf("\n");
+
 		}
 	}
 }
