@@ -5,7 +5,7 @@
  * @src: second string to be copy from
  * @dest: string to be overwritten
  * Description: concatenates src to end of dest
- * return: pointer to dest
+ * Return: pointer to dest
  *
  */
 
@@ -17,7 +17,6 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[i] != '\0')
 		i++;
-
 	for (j = 0; src[j] != '\0'; j++)
 	{
 		dest[i] = src[j];
