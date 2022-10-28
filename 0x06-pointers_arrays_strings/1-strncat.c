@@ -11,7 +11,7 @@
  *
  * Description: concatenates n number of values from src to end of dest
  *
- * Return: pointer to dest
+ * Return: returns  pointer to dest
  *
  */
 
