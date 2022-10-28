@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main- print out the magic
+ *
+ * Return: returns zero on success
+ *
+ */
+
 int main(void)
 {
 	int n;
