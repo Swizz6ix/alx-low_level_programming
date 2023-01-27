@@ -1,7 +1,3 @@
-/*
- * File: 4-strpbrk.c
- * Auth: Brennan D Baraban
- */
 
 #include "main.h"
 
