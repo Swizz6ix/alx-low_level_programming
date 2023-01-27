@@ -1,8 +1,3 @@
-/*
- * File: 5-strstr.c
- * Auth: Brennan D Baraban
- */
-
 #include "main.h"
 
 /**
