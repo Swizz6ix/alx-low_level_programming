@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6dfeed85a83bdb0462edf3db8c3868b2e5fb0642
 #include "main.h"
 
 /**
