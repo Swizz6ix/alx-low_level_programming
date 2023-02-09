@@ -1,8 +1,3 @@
-/*
- * File: 9-set_string.c
- * Auth: Brennan D Baraban
- */
-
 #include "main.h"
 
 /**
